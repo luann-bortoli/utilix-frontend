@@ -16,7 +16,7 @@ O objetivo do projeto é centralizar utilitários como calculadoras, conversores
 - Vite
 - JavaScript
 ---
-## Como Rodar o Projeto
+# Como Rodar o Projeto
   # Clonar o repositório
   git clone https://github.com/luann-bortoli/utilix-digital-tools
 
