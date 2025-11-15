@@ -17,10 +17,10 @@ export default function Header(){
             </div>
             
             <div className={styles.sections}>
-                <Dropdown title={'Matemática'} options={['Calculadora de juros compostos']} linkTo={["/calculadora-de-juros"]}/>
+                <Dropdown title={'Matemática'} options={['Calculadora de juros']} linkTo={["/calculadora-de-juros"]}/>
                 <Dropdown title={'Downloaders'} options={['Baixador de videos do Youtube']} linkTo={["/calculadora-de-juros"]}/>
                 <Dropdown title={'Conversores'} options={['Converter SVG para PNG']} linkTo={["/calculadora-de-juros"]}/>
-                <Dropdown title={'Diversos'} options={['Quantos dias de X á Y']} linkTo={["/calculadora-de-juros"]}/>
+                <Dropdown title={'Diversos'} options={['Contador de caracteres e palavras']} linkTo={["/contador-de-caracteres"]}/>
             </div>
         </>
     )

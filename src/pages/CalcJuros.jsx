@@ -1,5 +1,5 @@
 import Header from '../components/Header.jsx'
-import JurosSimples from '../components/JurosSimples.jsx' 
+import JurosSimples from '../components/JurosSimples.jsx'
 import Footer from '../components/Footer.jsx'
 
 export default function CalcJuros(){

@@ -16,24 +16,18 @@ export default function App() {
         title={'Matemática'}
 
         tool={[
-          'Calculadora de juros simples e composto',
-          'Error occured in maintence',
-          'Screwdriver',
-          'Holdplacer',
-          'Coisa'
+          'Calculadora de juros'
         ]}
 
         description={[
           'Ideal para simular investimentos, financiamentos e comparações financeiras em segundos.',
-          'Please refresh the page',
-          'Um coiso de desparafusar',
-          'Um holdplacer',
-          'Alguma coisa'
           ]} 
           
           icon={[mathIcon]}
 
           section={'mathSection'}
+
+          link={"/calculadora-de-juros"}
         
           />
 
@@ -68,18 +62,20 @@ export default function App() {
 
           <Section title={'Diversos'}
         tool={[
-          'Fazer algo diverso'
+          'Contador de caracteres'
         ]}
 
         description={[
-          'Diversidade'
+          'Ferramenta rápida para checar comprimento e número de palavras de textos'
           ]} 
           
           icon={[moreIcon]}
 
           section={'moreSection'}
+
+          link={'/contador-de-caracteres'}
           />
-        </main>
+      </main>
         <Footer />
     </>
   )

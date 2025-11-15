@@ -4,11 +4,12 @@ input::placeholder{
 
 .titleContainer{
     display: flex;
+    justify-content: space-between;
     align-items: center;
 
-    margin: 0 auto;
+    margin: 180px auto 10px;
 
-    width: 39vw;
+    width: 38.5vw;
 
     .title{
     font-size: 30px;
@@ -18,6 +19,49 @@ input::placeholder{
 
     img{
         height: 34px;
+    }
+
+    .titleSimples.titleSelected, .titleComposto.titleSelected{
+        background-color: var(--p-bg);
+        border-radius: 8px;
+
+        p{
+            color: var(--off-white)
+        }
+    }
+
+    .titleSimples{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 255px;
+        height: 60px;
+
+        border: solid var(--p-bg) 1px;
+        border-radius: 8px;
+
+        &:hover{
+            cursor: pointer;
+        }
+        
+        
+    }
+
+    .titleComposto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 295px;
+        height: 60px;
+
+        border: solid var(--p-bg) 1px;
+        border-radius: 8px;
+
+        &:hover{
+            cursor: pointer;
+        }
     }
 }
 
@@ -36,7 +80,7 @@ input::placeholder{
 
     overflow: hidden;
     text-overflow: ellipsis;
-    
+
     .response{
         display: flex;
         justify-content: center;
@@ -63,7 +107,7 @@ input::placeholder{
     align-items: center;
 
     width: 100vw;
-    margin-top: -30px;
+    margin: -30px 0 100px 0;
 
     .leftContent{
         display: flex;
