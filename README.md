@@ -17,14 +17,14 @@ O objetivo do projeto é centralizar utilitários como calculadoras, conversores
 - JavaScript
 ---
 # Como Rodar o Projeto
-  # Clonar o repositório
+  ## Clonar o repositório
   git clone https://github.com/luann-bortoli/utilix-digital-tools
 
-  # Entrar na pasta
+  ## Entrar na pasta
   cd utilix
 
-  # Instalar dependências
+  ## Instalar dependências
   npm install
 
-  # Rodar localmente
+  ## Rodar localmente
   npm run dev
