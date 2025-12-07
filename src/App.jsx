@@ -82,7 +82,7 @@ export default function App() {
         tool={[
           'Contador de caracteres',
           'Gerador de senha segura',
-          'Placeholder',
+          'Avaliador de senhas',
           'Placeholder',
           'Placeholder',
           'Placeholder',
@@ -91,7 +91,7 @@ export default function App() {
         description={[
           'Ferramenta rápida para checar comprimento e número de palavras de textos',
           'Proteja suas contas com senhas complexas geradas instantaneamente',
-          'Ideal para fazer o site parecer ter mais conteúdo',
+          'Analise a robustez de senhas e receba sugestões de como melhorar sua segurança.',
           'Ideal para fazer o site parecer ter mais conteúdo',
           'Ideal para fazer o site parecer ter mais conteúdo',
           'Ideal para fazer o site parecer ter mais conteúdo',
@@ -101,7 +101,7 @@ export default function App() {
 
           section={'moreSection'}
 
-          link={['/contador-de-caracteres', '/gerador-de-senha']}
+          link={['/contador-de-caracteres', '/gerador-de-senha', '/avaliador-de-senha']}
           />
       </main>
         <Footer />

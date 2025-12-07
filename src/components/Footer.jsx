@@ -27,8 +27,8 @@ export default function Footer(){
                         <ul>
                             <li><a href="/contador-de-caracteres">Contador de caracteres</a></li>
                             <li><a href="/gerador-de-senha">Gerador de senha segura</a></li>
-                            <li><a href="/calculadora-de-juros">Calculadora de juros simples</a></li>
-                            <li><a href="/calculadora-de-juros">Calculadora de juros composto</a></li>
+                            <li><a href="/avaliador-de-senha">Avaliador de senhas</a></li>
+                            <li><a href="/calculadora-de-juros">Calculadora de juros</a></li>
                         </ul>
                     </div>
 

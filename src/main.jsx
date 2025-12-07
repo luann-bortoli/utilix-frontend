@@ -5,6 +5,7 @@ import App from './App.jsx'
 import CalcJuros from './pages/CalcJuros.jsx'
 import CalcLenght from './pages/CalcLenght.jsx'
 import GeradSenha from './pages/GeradSenha.jsx'
+import TestSenha from './pages/TestSenha.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/gerador-de-senha",
     element: <GeradSenha />
+  },
+  {
+    path: "/avaliador-de-senha",
+    element: <TestSenha />
   }
 ])
 

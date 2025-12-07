@@ -18,5 +18,5 @@ O objetivo do projeto é centralizar utilitários como calculadoras, conversores
 
 # Futuras funcionalidades
   - Dark mode.
-  - Responsividade e suporte mobile.
+  - Melhor responsividade e suporte mobile.
   - Novas ferramentas.

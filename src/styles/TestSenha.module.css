@@ -1,0 +1,134 @@
+.titleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    img{
+        height: 30px;
+    }
+
+    p{
+        font-size: 30px;
+        font-weight: bold;
+        color: var(--p-bg)
+    }
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+
+    min-height: 360px;
+    width: 100%;
+
+    .passwordContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 30px;
+
+        background-color: var(--off-white);
+        border: solid var(--p-bg) 1px;
+        border-radius: 8px;
+
+        input{
+            height: 100%;
+            width: 300px;
+
+            padding: 5px 10px;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: var(--p-bg)
+        }
+
+        button{
+            height: 100%;
+            width: 40px;
+
+            border-radius: 0 6px 6px 0;
+            padding: 0;
+            margin: 0;
+            border: none;
+            outline: none;
+            background-color: var(--p-bg);
+            color: var(--off-white);
+
+            &:hover{
+                cursor: pointer;
+                background-color: var(--p-bg-d);
+            }
+
+            img{
+                height: 18px;
+            }
+        }
+    }
+    
+        .submitButton{
+            height: 32px;
+            width: 363px;
+
+            border-radius: 8px;
+            background-color: var(--p-bg);
+            color: var(--off-white);
+            outline: none;
+            border: none;
+            margin: 10px 0 8px 0;
+            padding: 0 20px;
+            font-size: 14px;
+
+            &:hover{
+                cursor: pointer;
+                background-color: var(--p-bg-d);
+            }
+        }
+
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+
+        width: 360px;
+        margin: 0;
+        padding: 0;
+
+        p{
+            font-size: 14px;
+            margin: 0;
+            padding: 0;
+            margin: 5px 0;
+            color: var(--p-bg);
+            font-weight: 500;
+        }
+
+        hr{
+            width: 100%;
+            border: solid 1px var(--p-bg);
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+
+            li{
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                font-size: 13px;
+                color: var(--p-bg);
+                margin: 0 0 4px 0;
+
+                img{
+                    height: 14px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}

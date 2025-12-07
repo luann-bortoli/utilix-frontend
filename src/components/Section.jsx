@@ -13,12 +13,14 @@ export default function Section({title, tool, description, icon, section, link})
 
                     <div className={styles.toolContainer}>
                         {tool.map((option, index) => (
-                            <Link to={link[index]}>
+                            
                             <div key={index} className={styles.optionsContainer}>
+                                <Link to={link[index]}>
                                 <p className={styles.toolTitle}>{option}</p>
                                 <p className={styles.toolDesc}>{description[index]}</p>
+                                </Link>
                             </div>
-                            </Link>
+                            
                         ))}
                     </div>
                 </div>

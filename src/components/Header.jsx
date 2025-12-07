@@ -20,7 +20,7 @@ export default function Header(){
                 <Dropdown title={'Matemática'} options={['Calculadora de juros']} linkTo={["/calculadora-de-juros"]}/>
                 <Dropdown title={'Downloaders'} options={['Placeholder']} linkTo={["/"]}/>
                 <Dropdown title={'Conversores'} options={['Placeholder']} linkTo={["/"]}/>
-                <Dropdown title={'Diversos'} options={['Contador de caracteres e palavras', 'Gerador de senha']} linkTo={["/contador-de-caracteres", "/gerador-de-senha"]}/>
+                <Dropdown title={'Diversos'} options={['Contador de caracteres e palavras', 'Gerador de senha', 'Avaliador de senhas']} linkTo={["/contador-de-caracteres", "/gerador-de-senha", '/avaliador-de-senha']}/>
             </div>
         </>
     )
